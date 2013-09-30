@@ -1,0 +1,17 @@
+For those who have learned how to work with them, S-expressions are the
+best notation for code representation. Interactively, they can be very
+conveniently navigated and manipulated (with competent editors);
+programmatically, they can be transformed, generated, serialized and
+read back with ease. When properly formatted and indented, they are also
+very readable, and reflect the larger structures of programs well.
+
+Perhaps the only place where s-expressions may be at a slight
+disadvantage as a notation is representating short snippets of
+mathematical formulas. A properly typesetted mathematical formula
+employing the elements of super- and subscripting, stacking and all
+sorts of 2-dimensional layout schemes can convey a lot of information
+very compactly. However, they are unwieldy in terms of editability.
+
+This mode aims to bring the best of both worlds together, where marked
+s-expressions in a Lisp program are rendered dynamically as mathematical
+formulas.
